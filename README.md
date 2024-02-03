@@ -7,3 +7,10 @@
 - 웹 MVC 개발
 - DB 연동 - JDBC, JPA, 스프링 데이터 JPA
 - 테스트 케이스 작성
+
+---
+<h3>빌드하고 실행하기</h3>
+1. ./gradlew build<br>
+2. cd build/libs<br>
+3. java -jar ~~~SNAPSHOT.jar<br>
+4. 실행 확인
