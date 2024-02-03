@@ -10,9 +10,11 @@
 
 ---
 <h3>빌드하고 실행하기</h3>
-1. ./gradlew build<br>
+1. ./gradlew build
+
     - ./gradlew clean 하면 빌드 지워짐
     - ./gradlew clean build 하면 빌드 지우고 다시 빌드
+    
 2. cd build/libs<br>
 3. java -jar ~~~SNAPSHOT.jar<br>
 4. 실행 확인
