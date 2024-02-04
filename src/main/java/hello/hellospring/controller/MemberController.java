@@ -24,6 +24,7 @@ public class MemberController {
     @Autowired
     public MemberController(MemberService memberService) {
         this.memberService = memberService; // 3. 생성자 주입을 권장함 (의존관계가 실행 중에 동적으로 변하는 경우는 거의 없음)
+        System.out.println("memberService = " + memberService.getClass());
     }
 
     @GetMapping("/members/new")
